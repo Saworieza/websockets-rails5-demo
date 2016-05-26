@@ -13,13 +13,14 @@ gem 'jbuilder', '~> 2.0'
 gem 'redis', '~> 3.0'
 
 gem 'devise', git: 'https://github.com/plataformatec/devise.git'
-gem 'dotenv', '~> 2.1', '>= 2.1.1'
 
 group :development, :test do
   gem 'byebug'
   gem 'sqlite3'
   gem 'rspec-rails', '~> 3.1.0'
   gem 'factory_girl_rails', '~> 4.6'
+
+  gem 'dotenv-rails', '~> 2.1', '>= 2.1.1'
 end
 
 group :test do
